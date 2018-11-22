@@ -1,10 +1,11 @@
-ÂüµÂ²¨ÂŞÍ¼ĞÎ 
-Éè¼ÆÒ»¸ö¼ÆËãº¯Êı£¨¸ºÊı£© ±àĞ´´úÂë ÓÃpythonÊµÏÖ
-ĞÂ½¨ÎÄ±¾ÎÄµµ¸ÄÃûÎª usercustomize.py ÔÙĞÂ½¨ÎÄ±¾ÎÄµµ´ò¿ªÁí´æÎª usercustomize.py ËùÓĞÎÄ¼ş ¸ñÊ½¸ÄÎªUTF-8
-python 3.7 64-bit ÊÇ¸ö·Ç³£ºÃµÄ¼ÆËãÆ÷
+æ›¼å¾·æ³¢ç½—å›¾å½¢ 
+è®¾è®¡ä¸€ä¸ªè®¡ç®—å‡½æ•°ï¼ˆè´Ÿæ•°ï¼‰ ç¼–å†™ä»£ç  ç”¨pythonå®ç°
+æ–°å»ºæ–‡æœ¬æ–‡æ¡£æ”¹åä¸º usercustomize.py å†æ–°å»ºæ–‡æœ¬æ–‡æ¡£æ‰“å¼€å¦å­˜ä¸º usercustomize.py æ‰€æœ‰æ–‡ä»¶ æ ¼å¼æ”¹ä¸ºUTF-8
+python 3.7 64-bit æ˜¯ä¸ªéå¸¸å¥½çš„è®¡ç®—å™¨
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-ÏÂÔØ sublime text
-tools-built system-Ñ¡Ôñpython
-built Ñ¡Ôñpython ±£´æ£¨ctrl+s£© ÔËĞĞbuilt£¨ctrl+b£©
+ä¸‹è½½ sublime text
+tools-built system-é€‰æ‹©python
+built é€‰æ‹©python ä¿å­˜ï¼ˆctrl+sï¼‰ è¿è¡Œbuiltï¼ˆctrl+bï¼‰
 123
+github
