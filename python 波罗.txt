@@ -1,0 +1,9 @@
+曼德波罗图形 
+设计一个计算函数（负数） 编写代码 用python实现
+新建文本文档改名为 usercustomize.py 再新建文本文档打开另存为 usercustomize.py 所有文件 格式改为UTF-8
+python 3.7 64-bit 是个非常好的计算器
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+下载 sublime text
+tools-built system-选择python
+built 选择python 保存（ctrl+s） 运行built（ctrl+b）
