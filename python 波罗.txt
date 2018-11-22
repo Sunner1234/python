@@ -7,3 +7,4 @@ python 3.7 64-bit 是个非常好的计算器
 下载 sublime text
 tools-built system-选择python
 built 选择python 保存（ctrl+s） 运行built（ctrl+b）
+123
