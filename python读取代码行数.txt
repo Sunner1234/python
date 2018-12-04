@@ -1,0 +1,16 @@
+file_path = r'C:\Users\Administrator\Desktop\root\dir1\cp3_data_size.c'
+# print(file_path)
+
+def line_count(file_path):
+	code_line,blank_line = 0,0      #定义两个变量
+	with open(file_path,'r') as fp: 
+		while True:                 
+			line = fp.readline()    #读line
+			if not line:
+				break
+			if not len(line.strip()):#strip去掉非可打印字符 空格属于非可打印字符进行读行
+				blank_line+=1
+			code_line+=1			
+	print(code_line,"lines")
+	print(blank_line,"Blanklines")   #读取空白行
+line_count(file_path)
