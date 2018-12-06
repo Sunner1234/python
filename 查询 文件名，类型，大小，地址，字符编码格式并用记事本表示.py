@@ -4,6 +4,7 @@
 
 import os
 from chardet import detect
+#获取文件查询并记录文本文件行数和空白行 strip（）表示真正意义上的空白行
 def get_file_info(file_path):
 	with open(file_path,"rb") as fp:
 		encode = detect(fp.read())['encoding']
@@ -20,6 +21,7 @@ def get_file_info(file_path):
 					blank_count+=1
 	info.write(str(line_count)+"Lines("+str(blank_count)+"blanks)"+"\n")			
 # a = os.path.isfile(r"C:\Users\Administrator\Desktop\root\a.txt")
+#获取文件查询并记录文件地址，大小，文件数并用“-”分隔
 root_path = os.getcwd()
 dir_count,file_count = 0,0.
 info = open("file_info.txt",'w')
@@ -41,6 +43,7 @@ for root,dirs,files in os.walk(root_path):
 info.write(str(dir_count-1)+"Folders"+"\n")                              #-1的意思是不包括root(所在文件夹位置)
 info.write(str(file_count)+"Files"+"\n")
 
+#查询子文件夹里的子文件并记录
 root_path = os.getcwd()
 offset = len(root_path.split("\\"))
 for root,dirs,files in os.walk(root_path):
